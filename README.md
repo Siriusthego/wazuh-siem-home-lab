@@ -8,6 +8,34 @@ This project documents the build-out of a self-hosted Wazuh SIEM environment, fr
 
 > **Note:** This is Phase 1 of the lab. It covers SIEM deployment, agent onboarding, and a basic attack simulation. Phase 2 (in a separate repo/branch) adds a Kali Linux attack host, SSH brute-force and port-scan simulations, custom Wazuh/Sigma detection rules, and full MITRE ATT&CK technique mapping.
 
+## Current Lab Status
+
+### Wazuh Overview Dashboard
+
+![Overview Dashboard](screenshots/wazuh-overview-dashboard.png)
+
+### Connected Windows Endpoint
+
+![Windows Agent Active](screenshots/windows-agent-active.png)
+
+### Wazuh Agent Service Verification
+
+![Wazuh Service Running](screenshots/wazuh-agent-service-running.png)
+
+## Completed Tasks
+
+- Installed Wazuh SIEM on Ubuntu
+- Configured Wazuh Dashboard
+- Enrolled Windows 10 Endpoint
+- Investigated Agent Disconnection Issue
+- Identified Manager IP Address Mismatch
+- Restored Agent Connectivity
+- Verified Endpoint Status in Dashboard
+
+## Troubleshooting Writeups
+
+- [Windows Agent Disconnected](writeups/agent-disconnected.md) 
+
 ---
 
 ## 1. SIEM Deployment
